@@ -82,6 +82,11 @@
     display: block;
 
 }
+            @media (max-width: 700px) {}
+    .description {
+     
+      font-size: 22px;
+    }
 .description:hover{color : #787878;}
 .review{
     margin-left: 10px;
@@ -149,3 +154,10 @@ body.custom-background {
 }
 .oferte:hover{background-color : #f78282;
     border-color: #f95858;}
+@media (max-width: 700px) {}
+    .oferte {
+     
+      font-size: 23px;
+    }
+  
+body{ background-color:#f0fade}
